@@ -1,0 +1,51 @@
+/*задаємо стилі для всієї сторінки */
+body {
+  display: flex; /*робимо так, щоб було зручно керувати розташуванням*/
+  justify-content: center; /*ставимо об'єкт в центр по горизонталі*/
+  align-items: center; /* в центр по вертикалі */
+  height: 100vh; /*сторінка займає 100% висоти вікна браузера*/
+  background: white; /*колір сторінки*/
+  position: relative;
+} /*тепер всі absolute-елементи розташовуються відносно цього body*/
+
+/*стилі для всіх кіл */
+.circle {
+  position: absolute; /*кола накладаються*/
+  border-radius: 50%; /*заокруглюємо елемент*/
+}
+
+/* стилі для найбльшого кола */
+.big {
+  width: 300px; /* ширина*/
+  height: 300px; /*висота*/
+  background: red; /*колір кола*/
+  border: 10px dashed black;
+} /*стиль і колір контура*/
+
+/*стилі для сircle3 */
+.circle3 {
+  width: 240px;
+  height: 240px;
+  background: white;
+}
+
+/*стилі для сircle2 */
+.circle2 {
+  width: 180px;
+  height: 180px;
+  background: red;
+}
+
+/* стилі для сircle1 */
+.circle1 {
+  width: 120px;
+  height: 120px;
+  background: white;
+}
+
+/*стилі для найменшого кола*/
+.small {
+  width: 60px;
+  height: 60px;
+  background: red;
+}
